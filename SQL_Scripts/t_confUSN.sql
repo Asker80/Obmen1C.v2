@@ -1,0 +1,22 @@
+USE [Obmen1C.v2]
+GO
+
+/****** Object:  Table [dbo].[t_confUSN]    Script Date: 09/19/2013 16:55:49 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[t_confUSN](
+	[c_USN] [bigint] IDENTITY(1,1) NOT NULL,
+	[c_TimeStamp] [datetime] NOT NULL,
+ CONSTRAINT [PK_t_confUSN] PRIMARY KEY CLUSTERED 
+(
+	[c_USN] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
