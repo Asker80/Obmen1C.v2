@@ -1,5 +1,3 @@
-USE [Obmen1C.v2]
-GO
 
 /****** Object:  Table [dbo].[t_confBases_History]    Script Date: 09/19/2013 16:51:41 ******/
 SET ANSI_NULLS ON

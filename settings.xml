@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<SqlDataSource>BDC1\SQLEXPRESS</SqlDataSource>
+	<SqlDatabase>Obmen1C.v2</SqlDatabase>
+	<!-- Login & Pass можно не указывать, тогда будет Integrated аутентфикация -->
+<!--	<SqlLogin></SqlLogin>
+	<SqlPass></SqlPass> -->
+	<Local>
+		<SqlDataSource>BDC1\SQLEXPRESS</SqlDataSource>
+		<SqlDatabase>Obmen1C.v2.replica</SqlDatabase>
+		<!-- Login & Pass можно не указывать, тогда будет Integrated аутентфикация -->
+	<!--	<SqlLogin></SqlLogin>
+		<SqlPass></SqlPass> -->
+	</Local>
+	<Master>
+			<SqlDataSource>BDC1\SQLEXPRESS</SqlDataSource>
+			<SqlDatabase>Obmen1C.v2.master</SqlDatabase>
+			<!-- Login & Pass можно не указывать, тогда будет Integrated аутентфикация -->
+		<!--	<SqlLogin></SqlLogin>
+			<SqlPass></SqlPass> -->
+	</Master>
+</settings>

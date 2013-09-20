@@ -1,5 +1,3 @@
-USE [Obmen1C.v2]
-GO
 
 /****** Object:  Table [dbo].[t_confUSN]    Script Date: 09/19/2013 16:55:49 ******/
 SET ANSI_NULLS ON

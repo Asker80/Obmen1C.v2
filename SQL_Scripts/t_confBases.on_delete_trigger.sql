@@ -1,5 +1,3 @@
-USE [Obmen1C.v2]
-GO
 
 /****** Object:  Trigger [dbo].[on_delete_trigger]    Script Date: 09/19/2013 16:49:54 ******/
 SET ANSI_NULLS ON
