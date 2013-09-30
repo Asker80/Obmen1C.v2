@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<message>
+	<id>(Get-Date).Ticks</id>
+	<sender>module.id@computername</sender>
+	<recipients>
+		<recipient>module.id@computername</recipient>
+	</recipients>
+	<body>
+	</body>
+</message>
