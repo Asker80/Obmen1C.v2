@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Types>
+    <Type>
+        <Name>System.String</Name>
+        <Members>
+            <ScriptProperty>
+                <Name>ToBase64String</Name>
+                <GetScriptBlock>
+					[System.Convert]::ToBase64String([System.Text.Encoding]::UNICODE.GetBytes($this))
+				</GetScriptBlock>
+            </ScriptProperty>
+            <ScriptProperty>
+                <Name>FromBase64String</Name>
+                <GetScriptBlock>
+					[System.Text.Encoding]::UNICODE.GetString([System.Convert]::FromBase64String($this))
+				</GetScriptBlock>
+            </ScriptProperty>
+        </Members>
+    </Type>
+    <Type>
+        <Name>System.DateTime</Name>
+        <Members>
+            <ScriptProperty>
+                <Name>ToStringSQL</Name>
+                <GetScriptBlock>
+					$this.ToString('yyyy-MM-dd HH:mm:ss.fff')
+				</GetScriptBlock>
+            </ScriptProperty>
+        </Members>
+    </Type>
+</Types>

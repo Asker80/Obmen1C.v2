@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <message>
-	<id>(Get-Date).Ticks</id>
+	<id>$((Get-Date).Ticks)</id>
 	<sender>module.id@computername</sender>
-	<recipients>
-		<recipient>module.id@computername</recipient>
-	</recipients>
+	<recipient>module.id1@computername</recipient>
+	<recipient>module.id2@computername</recipient>
 	<body>
 	</body>
 </message>
