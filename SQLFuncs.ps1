@@ -135,8 +135,10 @@ function Begin-SqlTransaction
     $transaction = $connection.BeginTransaction()
 
     ## Return connection and transaction
-    $connection
-    $transaction
+    New-Object PSObject -Property @{
+        Connection = $connection
+        Transaction = $transaction
+    }
 }
 
 function Execute-SqlCommandNonQueryTransaction
